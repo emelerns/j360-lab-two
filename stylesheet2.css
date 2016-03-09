@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300);
+image href="coffee_beans-620x200.jpg.html"
+
+image {
+  margin-top: 3px;
+}
 body {
   font-family: "Open Sans Condensed", sans-serif;
   margin-top: 225px;
@@ -6,7 +11,7 @@ body {
 h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 60px;
-  color: #F0F0F0;
+  color: purple;
 }
 section h1 {
   font-size: 65px;
@@ -42,7 +47,7 @@ background-color: gray;
 
 /*containers and multi-column layout*/
 .container {
-  margin: 10px 5%;
+  margin: 10px;
   background-color: gray;
 }
 .row {
@@ -52,19 +57,19 @@ background-color: gray;
 }
 .container::after, .row::after {
   clear: both;
-  display: table;
+  display: block;
   content: "";
 }
 .col {
     float: left;
-    display: block;
+    display: inline-block;
 }
 
 .col:last-child {
     margin: 0;
 }
 
-.col-4 {
+.col-3 {
     width: 100%;
     margin-right: 0;
 }
@@ -78,10 +83,10 @@ background-color: gray;
 
 @media (min-width: 960px) {
   .container {
-    width: 900px;
+    width: 945px;
     margin: 15px auto;
   }
-  .col-4 {
+  .col-3 {
     width: 31.25%;
     margin: 3%;
   }
@@ -92,7 +97,7 @@ background-color: gray;
     width: 1100px;
     margin: 50px;
   }
-  .col-4 {
+  .col-3 {
     width: 23%;
     margin-right: 3%;
   }
