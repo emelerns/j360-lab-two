@@ -6,12 +6,12 @@ image {
 }
 body {
   font-family: "Open Sans Condensed", sans-serif;
-  margin-top: 225px;
+  margin-top: 220px;
 }
 h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 60px;
-  color: purple;
+  color: #F8F8F8;
 }
 section h1 {
   font-size: 65px;
@@ -72,33 +72,4 @@ background-color: gray;
 .col-3 {
     width: 100%;
     margin-right: 0;
-}
-
-@media (max-width: 800px) {
-  .container {
-    width: 750px;
-    margin: 10px auto;
-  }
-}
-
-@media (min-width: 960px) {
-  .container {
-    width: 945px;
-    margin: 15px auto;
-  }
-  .col-3 {
-    width: 31.25%;
-    margin: 3%;
-  }
-  }
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1100px;
-    margin: 50px;
-  }
-  .col-3 {
-    width: 23%;
-    margin-right: 3%;
-  }
 }
