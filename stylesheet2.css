@@ -1,0 +1,11 @@
+color {
+    background-color: rgb(72, 88, 135)
+}
+body {
+  font-family: "Helvetica", sans-serif;
+  color: rgb(255, 255, 255);
+}
+h1 {
+    font-family: "Helvetica", sans-serif;
+    font-size: 3.75em;
+    font-weight: 200;}
