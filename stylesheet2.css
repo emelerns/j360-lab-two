@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300);
-
+#header {
+background: url(coffee-beans.jpg);
+width: 813px;
+height: 194px;
+}
 body {
   font-family: "Open Sans Condensed", sans-serif;
   margin-top: 220px;
