@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300);
-image href="coffee_beans-620x200.jpg.html"
+@import url("coffee_beans-620x200.jpg")
 
 image {
   margin-top: 3px;
