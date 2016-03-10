@@ -42,7 +42,7 @@ background-color: gray;
 /*containers and multi-column layout*/
 .image {
   width: 100%;
-  margin-left: 200px;
+  margin-right: 200px;
 }
 .container {
     margin: 10px 4%;
