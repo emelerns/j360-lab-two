@@ -13,6 +13,9 @@ section h1 {
   font-weight: 300;
   margin-top: 200px;
 }
+img {
+  margin-top: 3px;
+}
 /*Navigation*/
 nav {
   width: 100%;
