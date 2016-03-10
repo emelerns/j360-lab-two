@@ -3,6 +3,10 @@ body {
   font-family: "Open Sans Condensed", sans-serif;
   margin-top: 220px;
 }
+.image {
+  width: 100%;
+  margin: 10px;
+}
 h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 60px;
