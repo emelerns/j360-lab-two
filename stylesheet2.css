@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300);
-@import url("coffee_beans-620x200.jpg")
 
 image {
   margin-top: 3px;
@@ -17,7 +16,9 @@ section h1 {
   font-size: 65px;
   font-weight: 300;
   margin-top: 200px;
-  color:  black;}
+  color:  black;
+  float: center;
+}
 /*Navigation*/
 nav {
   width: 100%;
