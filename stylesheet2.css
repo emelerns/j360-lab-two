@@ -2,8 +2,8 @@
 #styledimg {
   background-image: url(/j360-lab-two/coffee-beans.jpg);
   background-repeat: no-repeat;
-  width: 200px; 
-  height: 600px; }
+  width: 600px; 
+  height: 200px; }
 body {
   font-family: "Open Sans Condensed", sans-serif;
   margin-top: 220px;
