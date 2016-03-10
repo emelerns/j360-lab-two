@@ -13,6 +13,9 @@ section h1 {
   font-weight: 300;
   margin-top: 200px;
 }
+img {
+  margin-top: 3px;
+}
 /*Navigation*/
 nav {
   width: 100%;
@@ -41,31 +44,80 @@ background-color: gray;
 }
 
 /*containers and multi-column layout*/
+
 .container {
-   float: left;
-   margin: 10px;
-  background-color: gray;
+    margin: 10px 4%;
 }
 .row {
-  width: 100%;
-  margin-bottom: 20px;
-  display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
 }
 .container::after, .row::after {
-  clear: both;
-  display: block;
-  content: "";
+    clear: both;
+    display: table;
+    content: "";
 }
 .col {
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .col:last-child {
     margin: 0;
 }
 
-.col-3 {
+.col-4 {
     width: 100%;
     margin-right: 0;
+}
+
+.col img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+        margin: 15px auto;
+    }
+
+    .col-4 {
+        width: 31.4666667%;
+        margin-right: 2.6666667%;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+        margin: 20px auto 5px;
+    }
+
+    .col-4 {
+        width: 31.875%;
+        margin-right: 2.1875%;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1000px;
+        margin: 40px auto 10px;
+    }
+
+    .col-4 {
+        width: 32%;
+        margin-right: 2%;
+    }
+
+    h1 {
+        font-size: 3.75em;
+        font-weight: 200;
+    }
 }
